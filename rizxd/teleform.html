@@ -20,16 +20,15 @@ instagram : @riz.4d
 
 	<title>Teleform | contact me</title>
 </head>
-
 <body>
-<section class="home bd-grid" id="home">
-<div align="center">
-                      <a href="https://github.com/riz4d/teleform" class="button__secondary"><i class="fa fa-heart"></i> Source on Github</a>
-                </div>
-            </section>
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
+                <h2 class="section-title">Contact Form</h2>
+<div align="center" class="alert" id="error-message" style="display: none;">
+                                Sorry message has not been sent because of some external issue.
+                            </div>
+                            <div align="center" class="alert" id="sent-message" style="display: none;">
+                                Your message has been sent. Thank you!
+                            </div>
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
                         <input required type="text" id="name" placeholder="Name" class="contact__input">
@@ -37,16 +36,13 @@ instagram : @riz.4d
                         <textarea required name="" id="message" placeholder="Type your query" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="submit" value="send" class="contact__button button">
                     </form><br>
-                    <div id="error-message" style="display: none;">
-                                Sorry response has not been sent because of some internal issue.
-                            </div>
-                            <div id="sent-message" style="display: none;">
-                                Your response has been sent. Thank you!
-                            </div>
                 </div>
             </section>
         </main>
-        
+        <div align="center">
+                      <a href="https://github.com/riz4d/teleform"><i class="fa fa-heart"></i> Create your own form in free cost</a><br>
+                      <a href="https://www.instagram.com/riz4d"><i class='bx bxl-instagram'></i> Follow developer on instagram</a>
+                </div>
         <footer class="footer">
             <p class="footer__copy">&#169; riz4d. All rigths reserved</p>
         </footer>
