@@ -93,10 +93,12 @@ document
             var sentMsg = document.getElementById("sent-message");
             sentMsg.style.display = "block";
             console.log("successfully uploaded file");
+            document.querySelector(".contact__form").reset();
           } else {
             var errorMsg = document.getElementById("error-message");
             errorMsg.style.display = "block";
             console.log("failed to upload file");
+            document.querySelector(".contact__form").reset();
           }
         }
       };
