@@ -1,5 +1,5 @@
 ## teleform
-DB less web contact form ,data's were directly sent to telegram via telegrambot
+DB less web contact form ,response's were directly sent to telegram via telegrambot
 ### DEMO
 [Click Here](https://teleform.up.railway.app/)
 
